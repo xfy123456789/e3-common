@@ -10,6 +10,7 @@
 	<artifactId>e3-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
+		
 		<!-- 时间操作组件 -->
 		<dependency>
 			<groupId>joda-time</groupId>
@@ -68,6 +69,11 @@
 			<groupId>fastdfs_client</groupId>
 			<artifactId>fastdfs_client</artifactId>
 			<version>1.25</version>
+		</dependency>
+		<!-- Redis客户端 -->
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
 		</dependency>
 	</dependencies>
 </project>
